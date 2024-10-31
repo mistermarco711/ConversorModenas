@@ -1,5 +1,5 @@
 package com.alura.conversormoneda.modelos;
 
-public record MonedaExchange(String target_code, String conversion_rate) {
+public record MonedaExchange(String base_code, String target_code, String conversion_rate, String conversion_result) {
 
 }
